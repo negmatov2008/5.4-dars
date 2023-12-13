@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 200px;
+  margin: auto auto;
+  position: relative;
+}
+.game button {
+ width: 60px;
+ height: 35px;
+  cursor: pointer;
+  margin-right:35px ;
+}
+.true {
+  background-color: green;
+}
+.false {
+  background-color: red;
+}
+.hidden {
+  display: none;
+}
+.line{
+  height: 170px;
+  width: 1px;
+  background-color: black;
+  position: absolute;
+  top: 8px;
+  right: 52%;
+}
