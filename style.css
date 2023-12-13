@@ -11,25 +11,35 @@ body {
   position: relative;
 }
 .game button {
- width: 60px;
- height: 35px;
+  width: 60px;
+  height: 35px;
   cursor: pointer;
-  margin-right:35px ;
+  margin-right: 35px;
 }
 .true {
   background-color: green;
+  color: #fff;
 }
 .false {
   background-color: red;
+  color: #fff;
 }
 .hidden {
   display: none;
 }
-.line{
+.line {
   height: 170px;
   width: 1px;
   background-color: black;
   position: absolute;
   top: 8px;
   right: 51%;
+}
+.raqam {
+  display: flex;
+  gap: 28px;
+  flex-direction: column;
+  position: absolute;
+  top: 15px;
+  left: 42%;
 }
